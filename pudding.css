@@ -1,0 +1,284 @@
+body {
+  width: 500px;
+  height: 200px;
+  margin: 200px auto 100px;
+  background: #4d7d99;
+}
+
+.plate {
+  margin: 100px auto;
+  width: 280px;
+  height: 100px;
+  background: white;
+  position: relative;
+  border-radius: 50%;
+}
+
+.plate-shadow {
+  width: 220px;
+  height: 70px;
+  border: solid 3px;
+  border-color: transparent #efefef #efefef transparent;
+  position: absolute;
+  border-radius: 50%;
+  top: 10px;
+  left: 30px;
+}
+
+.pudding {
+  margin: 0 auto;
+  width: 120px;
+  border-bottom: 80px solid #f0e68c;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  height: 0;
+  position: absolute;
+  top: -50px;
+  left: 60px;
+}
+
+.caramel {
+  width: 122px;
+  height: 50px;
+  background: #8b4513;
+  border-radius: 50%;
+  position: absolute;
+  top: -20px;
+  left: -1px;
+}
+
+.caramel-shadow {
+  width: 72px;
+  height: 28px;
+  border: solid 3px;
+  border-radius: 50%;
+  border-color: transparent #b37447 #b37447 transparent;
+  position: absolute;
+  top: -10px;
+  left: 40px;
+  transform: rotate(-11deg);
+}
+
+.pudding-shadow {
+  width: 20px;
+  height: 74px;
+  background: #fafad2;
+  position: absolute;
+  top: 23px;
+  left: 100px;
+  transform: rotate(-15deg);
+}
+
+.cream {
+  width: 50px;
+  height: 55px;
+  background: #fff8dc;
+  position: absolute;
+  top: -30px;
+  left: 35px;
+  border-radius: 10% 40% 50% 50%;
+  transform: rotate(70deg);
+}
+
+.cherry {
+  width: 40px;
+  height: 40px;
+  background: #b22222;
+  position: absolute;
+  border-radius: 50%;
+  top: -30px;
+  left: 37px;
+}
+
+.stem {
+  width: 20px;
+  height: 50px;
+  border: solid;
+  border-color: transparent #663300 transparent transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: -70px;
+  left: 40px;
+}
+
+.cherry-shadow {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  border: solid 2px;
+  border-radius: 50%;
+  border-color: transparent #ffffff transparent transparent;
+  top: -27px;
+  left: 41px;
+  transform: rotate(20deg);
+}
+
+.pudding-bottom {
+  width: 160px;
+  height: 50px;
+  background: #f0e68c;
+  border-radius: 50%;
+  position: absolute;
+  top: 55px;
+  right: -20px;
+}
+
+@-webkit-keyframes jello {
+  from,
+  11.1%,
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  22.2% {
+    -webkit-transform: skewX(-12.5deg) skewY(-12.5deg);
+    transform: skewX(-12.5deg) skewY(-12.5deg);
+  }
+
+  33.3% {
+    -webkit-transform: skewX(6.25deg) skewY(6.25deg);
+    transform: skewX(6.25deg) skewY(6.25deg);
+  }
+
+  44.4% {
+    -webkit-transform: skewX(-3.125deg) skewY(-3.125deg);
+    transform: skewX(-3.125deg) skewY(-3.125deg);
+  }
+
+  55.5% {
+    -webkit-transform: skewX(1.5625deg) skewY(1.5625deg);
+    transform: skewX(1.5625deg) skewY(1.5625deg);
+  }
+
+  66.6% {
+    -webkit-transform: skewX(-0.78125deg) skewY(-0.78125deg);
+    transform: skewX(-0.78125deg) skewY(-0.78125deg);
+  }
+
+  77.7% {
+    -webkit-transform: skewX(0.390625deg) skewY(0.390625deg);
+    transform: skewX(0.390625deg) skewY(0.390625deg);
+  }
+
+  88.8% {
+    -webkit-transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
+    transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
+  }
+}
+
+@keyframes jello {
+  from,
+  11.1%,
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  22.2% {
+    -webkit-transform: skewX(-12.5deg) skewY(-12.5deg);
+    transform: skewX(-12.5deg) skewY(-12.5deg);
+  }
+
+  33.3% {
+    -webkit-transform: skewX(6.25deg) skewY(6.25deg);
+    transform: skewX(6.25deg) skewY(6.25deg);
+  }
+
+  44.4% {
+    -webkit-transform: skewX(-3.125deg) skewY(-3.125deg);
+    transform: skewX(-3.125deg) skewY(-3.125deg);
+  }
+
+  55.5% {
+    -webkit-transform: skewX(1.5625deg) skewY(1.5625deg);
+    transform: skewX(1.5625deg) skewY(1.5625deg);
+  }
+
+  66.6% {
+    -webkit-transform: skewX(-0.78125deg) skewY(-0.78125deg);
+    transform: skewX(-0.78125deg) skewY(-0.78125deg);
+  }
+
+  77.7% {
+    -webkit-transform: skewX(0.390625deg) skewY(0.390625deg);
+    transform: skewX(0.390625deg) skewY(0.390625deg);
+  }
+
+  88.8% {
+    -webkit-transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
+    transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
+  }
+}
+
+.jello {
+  -webkit-animation-name: jello;
+  animation-name: jello;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+}
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.animated.delay-1s {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+.animated.delay-2s {
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+.animated.delay-3s {
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s;
+}
+
+.animated.delay-4s {
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+}
+
+.animated.delay-5s {
+  -webkit-animation-delay: 5s;
+  animation-delay: 5s;
+}
+
+.animated.fast {
+  -webkit-animation-duration: 800ms;
+  animation-duration: 800ms;
+}
+
+.animated.faster {
+  -webkit-animation-duration: 500ms;
+  animation-duration: 500ms;
+}
+
+.animated.slow {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+}
+
+.animated.slower {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+}
+
+@media (prefers-reduced-motion) {
+  .animated {
+    -webkit-animation: unset !important;
+    animation: unset !important;
+    -webkit-transition: none !important;
+    transition: none !important;
+  }
+}
